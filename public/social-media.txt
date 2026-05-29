@@ -81,3 +81,7 @@
 
 ||quora.com^
 ||quoracdn.net^
+
+||bangumi.tv^
+||bgm.tv^
+||chii.in^
