@@ -114,6 +114,7 @@
 
 ||apple.com^
 ||dji.com^
+||frame.work^
 
 ||play.google.com^
 ||store.google.com^
