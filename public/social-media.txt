@@ -42,7 +42,6 @@
 ||snap.com^
 ||sc-cdn.net^
 
-||linkedin.com^
 ||licdn.com^
 ||lnkd.in^
 
