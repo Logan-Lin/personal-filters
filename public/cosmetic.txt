@@ -14,4 +14,3 @@ bilibili.com##.rec-list
 bilibili.com###commentapp
 bilibili.com##.bili-header__channel
 bilibili.com##.left-entry
-bilibili.com##.right-entry
