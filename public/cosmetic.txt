@@ -13,7 +13,7 @@ www.youtube.com##.ytp-ce-element
 www.youtube.com##.ytp-pause-overlay
 www.youtube.com##.ytp-suggestion-set
 www.youtube.com##ytd-search ytd-shelf-renderer[thumbnail-style]
-www.youtube.com##ytd-browse[page-subtype="shorts"]
+www.youtube.com##ytd-shorts
 www.youtube.com##ytd-guide-entry-renderer:has(a[href^="/shorts"])
 www.youtube.com##ytd-mini-guide-entry-renderer:has(a[href^="/shorts"])
 www.youtube.com##ytd-rich-shelf-renderer[is-shorts],ytd-rich-shelf-renderer[is-shorts]:upward(ytd-rich-section-renderer)

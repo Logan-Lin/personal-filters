@@ -5,6 +5,7 @@ m.youtube.com##div.related-items-container
 m.youtube.com##.related-chips-slot-wrapper
 m.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
 m.youtube.com##:matches-path(/results)ytm-shelf-renderer:has-text(/People also watched|People also search for|From related searches|Related to your search|Previously watched/i)
+m.youtube.com##body.page-shorts
 m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-shorts)
 m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-reel-shelf-renderer
 m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-shorts-lockup-view-model:upward(ytm-rich-section-renderer)
