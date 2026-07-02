@@ -13,6 +13,14 @@ www.youtube.com##.ytp-ce-element
 www.youtube.com##.ytp-pause-overlay
 www.youtube.com##.ytp-suggestion-set
 www.youtube.com##ytd-search ytd-shelf-renderer[thumbnail-style]
+www.youtube.com##ytd-browse[page-subtype="shorts"]
+www.youtube.com##ytd-guide-entry-renderer:has(a[href^="/shorts"])
+www.youtube.com##ytd-mini-guide-entry-renderer:has(a[href^="/shorts"])
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts],ytd-rich-shelf-renderer[is-shorts]:upward(ytd-rich-section-renderer)
+www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer
+www.youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:has(ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2)
+www.youtube.com##ytm-shorts-lockup-view-model-v2:upward(grid-shelf-view-model)
+www.youtube.com##ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"]:upward(ytd-video-renderer)
 www.youtube.com###comments
 
 bilibili.com##.recommended-container_floor-aside
