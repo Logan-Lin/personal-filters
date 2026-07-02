@@ -1,2 +1,7 @@
+m.youtube.com##ytm-browse[page-subtype="home"]
+m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
 m.youtube.com##ytm-item-section-renderer.scwnr-content.single-column-watch-next-modern-panels:nth-child(3) > lazy-list
 m.youtube.com##div.related-items-container
+m.youtube.com##.related-chips-slot-wrapper
+m.youtube.com##.fullscreen-watch-next-entrypoint-wrapper
+m.youtube.com##:matches-path(/results)ytm-shelf-renderer:has-text(/People also watched|People also search for|From related searches|Related to your search|Previously watched/i)

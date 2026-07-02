@@ -4,9 +4,16 @@ bgm.tv###columnHomeB
 
 www.accuweather.com##.page-column-2
 
-www.youtube.com##.ytp-fullscreen-grid-stills-container
-www.youtube.com###comments
+www.youtube.com##ytd-browse[page-subtype="home"]
 www.youtube.com###related
+www.youtube.com##ytd-watch-next-secondary-results-renderer
+www.youtube.com##.html5-endscreen
+www.youtube.com##.ytp-fullscreen-grid-stills-container
+www.youtube.com##.ytp-ce-element
+www.youtube.com##.ytp-pause-overlay
+www.youtube.com##.ytp-suggestion-set
+www.youtube.com##ytd-search ytd-shelf-renderer[thumbnail-style]
+www.youtube.com###comments
 
 bilibili.com##.recommended-container_floor-aside
 bilibili.com##.trending
