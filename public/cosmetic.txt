@@ -21,11 +21,9 @@ www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer
 www.youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:has(ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2)
 www.youtube.com##ytm-shorts-lockup-view-model-v2:upward(grid-shelf-view-model)
 www.youtube.com##ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"]:upward(ytd-video-renderer)
-www.youtube.com###comments
 
 bilibili.com##.recommended-container_floor-aside
 bilibili.com##.trending
 bilibili.com##.rec-list
-bilibili.com###commentapp
 bilibili.com##.bili-header__channel
 bilibili.com##.left-entry
