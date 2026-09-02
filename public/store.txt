@@ -4,31 +4,20 @@
 ||amazon.se^
 ||amazon.co.uk^
 ||amazon.nl^
-||amzn.to^
-||media-amazon.com^
-||ssl-images-amazon.com^
 ||ebay.com^
 ||ebay.de^
 ||ebay.co.uk^
-||ebayimg.com^
-||ebaystatic.com^
 ||walmart.com^
-||walmartimages.com^
 ||target.com^
-||target.scene7.com^
 ||costco.com^
-||cdon.com^
 ||cdon.se^
 ||cdon.dk^
 ||cdon.no^
 ||cdon.fi^
 ||flipkart.com^
-||flixcart.com^
 ||lazada.com^
-||lazcdn.com^
 ||shopee.com^
 ||mercadolibre.com^
-||mlstatic.com^
 ||coolshop.dk^
 ||coolshop.se^
 ||coolshop.no^
@@ -40,21 +29,15 @@
 ||alibaba.com^
 ||aliexpress.com^
 ||aliexpress.us^
-||alicdn.com^
 ||1688.com^
 ||taobao.com^
 ||tmall.com^
 ||jd.com^
-||360buyimg.com^
 ||pinduoduo.com^
-||pddpic.com^
 ||temu.com^
-||kwcdn.com^
 ||banggood.com^
 ||geekbuying.com^
-||gbtcdn.com^
 ||dhgate.com^
-||dhresource.com^
 ||superbuy.com^
 ||cnfans.com^
 ||cssbuy.com^
@@ -70,9 +53,7 @@
 
 ! Electronics Retailers
 ||bestbuy.com^
-||bbystatic.com^
 ||newegg.com^
-||neweggimages.com^
 ||elgiganten.dk^
 ||elgiganten.se^
 ||elkjop.no^
@@ -98,10 +79,6 @@
 ||csmegastore.no^
 ||csmegastore.fi^
 ||csmegastore.com^
-||computersalg.dk^
-||computersalg.se^
-||computersalg.no^
-||computersalg.fi^
 ||hifiklubben.dk^
 ||hifiklubben.se^
 ||hifiklubben.no^
@@ -136,9 +113,7 @@
 
 ! Home and Furniture
 ||wayfair.com^
-||wfcdn.com^
 ||homedepot.com^
-||thdstatic.com^
 ||lowes.com^
 ||jysk.com^
 ||jysk.dk^
@@ -154,35 +129,24 @@
 ||jysk.no^
 ||jysk.fi^
 ||ikea.com^
-||ikea.dk^
 
 ! Fashion
 ||shein.com^
-||ltwebstatic.com^
 ||boozt.com^
 ||zalando.dk^
 ||zalando.se^
 ||zalando.no^
 ||zalando.fi^
-||ztat.net^
 ||aboutyou.dk^
 ||aboutyou.se^
 ||aboutyou.no^
 ||aboutyou.fi^
 ||booztlet.com^
-||booztlet.dk^
-||booztlet.se^
-||booztlet.no^
-||booztlet.fi^
 ||ellos.dk^
 ||ellos.se^
 ||ellos.no^
 ||ellos.fi^
 ||nelly.com^
-||nelly.dk^
-||nelly.se^
-||nelly.no^
-||nelly.fi^
 ||miinto.com^
 ||miinto.dk^
 ||miinto.se^
@@ -196,12 +160,6 @@
 
 ! Beauty and Cosmetics
 ||lyko.com^
-||lyko.se^
-||lyko.no^
-||lyko.fi^
-||lookfantastic.dk^
-||lookfantastic.se^
-||lookfantastic.fi^
 ||lookfantastic.com^
 
 ! Sport and Outdoor
@@ -231,19 +189,15 @@
 ||adlibris.fi^
 ||bokus.com^
 ||saxo.com^
-||saxo.dk^
 
 ! Handmade and Secondhand
 ||etsy.com^
-||etsystatic.com^
 ||mercari.com^
-||mercdn.net^
 ||tradera.com^
 ||vinted.dk^
 ||vinted.se^
 ||vinted.fi^
 ||vinted.com^
-||vinted.net^
 ||sellpy.dk^
 ||sellpy.se^
 ||sellpy.fi^
@@ -256,7 +210,6 @@
 ||mpb.com^
 
 ! Brand Stores
-||apple.com^
 ||dji.com^
 ||frame.work^
 ||nike.com^
@@ -268,13 +221,10 @@
 
 ! Digital and Game Stores
 ||steampowered.com^
-||steamcommunity.com^
-||steamstatic.com^
 ||epicgames.com^
 ||gog.com^
 ||xbox.com^
 ||apps.microsoft.com^
-||play.google.com^
 ||store.google.com^
 ||fanatical.com^
 ||greenmangaming.com^
@@ -282,7 +232,6 @@
 ||g2a.com^
 ||kinguin.net^
 ||loaded.com^
-||cdkeys.com^
 ||eneba.com^
 ||gamivo.com^
 ||driffle.com^
@@ -297,6 +246,4 @@
 ||indiegogo.com^
 
 ! Shopping Platforms
-||shopify.com^
-||shopifycdn.com^
 ||myshopify.com^

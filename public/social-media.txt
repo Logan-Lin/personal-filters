@@ -1,84 +1,42 @@
 ! Social Networks
 ||facebook.com^
-||fb.com^
-||fb.watch^
-||fbcdn.net^
 ||messenger.com^
 ||instagram.com^
-||cdninstagram.com^
-||ig.me^
 ||linkedin.com^
-||licdn.com^
-||lnkd.in^
 ||xiaohongshu.com^
-||xhscdn.com^
 ||vk.com^
 ||vk.ru^
 ||vk.me^
-||userapi.com^
-||vkuservideo.net^
-||vkuseraudio.net^
 ||ok.ru^
-||mycdn.me^
 ||sharechat.com^
 
 ! Microblogging
-||twitter.com^
 ||x.com^
-||t.co^
-||twimg.com^
-||threads.net^
 ||threads.com^
 ||bsky.app^
-||bsky.social^
 ||tumblr.com^
 ||weibo.com^
 ||weibo.cn^
-||sinaimg.cn^
 ||mastodon.social^
 ||misskey.io^
-||misskeyusercontent.com^
 ||truthsocial.com^
 ||gab.com^
 
 ! Video Platforms
 ||youtube.com^
-||youtu.be^
-||ytimg.com^
-||googlevideo.com^
-||ggpht.com^
 ||twitch.tv^
-||ttvnw.net^
-||jtvnw.net^
 ||tiktok.com^
-||tiktokcdn.com^
-||tiktokv.com^
-||ibyteimg.com^
 ||bilibili.com^
-||b23.tv^
-||bilivideo.com^
-||hdslb.com^
-||biliapi.net^
 ||douyin.com^
-||douyinpic.com^
-||douyinvod.com^
 ||kick.com^
 ||rumble.com^
-||rmbl.ws^
 ||dailymotion.com^
-||dai.ly^
-||dmcdn.net^
 ||nicovideo.jp^
-||nico.ms^
-||nimg.jp^
-||nicoseiga.jp^
 ||twitcasting.tv^
 ||sooplive.co.kr^
 ||sooplive.com^
-||afreecatv.com^
 ||kuaishou.com^
 ||kwai.com^
-||kwimgs.com^
 ||likee.video^
 ||ixigua.com^
 ||huya.com^
@@ -88,24 +46,16 @@
 
 ! Forums and Q&A
 ||reddit.com^
-||redd.it^
-||redditmedia.com^
-||redditstatic.com^
 ||quora.com^
-||quoracdn.net^
 ||zhihu.com^
-||zhimg.com^
 ||bangumi.tv^
 ||bgm.tv^
 ||chii.in^
 ||news.ycombinator.com^
 ||lemmy.world^
 ||4chan.org^
-||4cdn.org^
 ||5ch.io^
-||5ch.net^
 ||dcinside.com^
-||dcinside.co.kr^
 ||dcard.tw^
 ||v2ex.com^
 ||nga.cn^
@@ -119,45 +69,29 @@
 
 ! Chat and Messaging
 ||discord.com^
-||discord.gg^
-||discordapp.com^
-||discordapp.net^
-||discord.media^
 ||snapchat.com^
-||snap.com^
-||sc-cdn.net^
 
 ! Image Sharing
 ||pinterest.com^
-||pinimg.com^
-||pin.it^
 ||flickr.com^
-||staticflickr.com^
-||flic.kr^
 ||500px.com^
 ||huaban.com^
-||huabanimg.com^
 ||duitang.com^
 
 ! Memes and Humor
 ||9gag.com^
-||9cache.com^
 ||ifunny.co^
 
 ! Art and Illustration
 ||pixiv.net^
-||pximg.net^
 ||fanbox.cc^
 ||pixivision.net^
 ||deviantart.com^
-||deviantart.net^
 ||artstation.com^
 ||behance.net^
 ||dribbble.com^
 ||newgrounds.com^
-||ngfiles.com^
 ||furaffinity.net^
-||facdn.net^
 ||poipiku.com^
 ||skeb.jp^
 ||pawoo.net^
@@ -165,6 +99,4 @@
 ||itaku.ee^
 ||artfol.app^
 ||lofter.com^
-||lf127.net^
 ||zcool.com.cn^
-||zcool.cn^
