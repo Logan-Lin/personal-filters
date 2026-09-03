@@ -1,0 +1,70 @@
+! YouTube Recommendations
+www.youtube.com##ytd-browse[page-subtype="home"]
+www.youtube.com###related
+www.youtube.com##.html5-endscreen
+www.youtube.com##.ytp-ce-element
+www.youtube.com##.ytp-pause-overlay
+www.youtube.com##.ytp-fullscreen-grid-stills-container
+www.youtube.com##ytd-search #contents.ytd-item-section-renderer > ytd-shelf-renderer
+www.youtube.com##ytd-search #contents.ytd-item-section-renderer > ytd-horizontal-card-list-renderer
+m.youtube.com##.tab-content[tab-identifier="FEwhat_to_watch"]
+m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
+m.youtube.com##ytm-related-chip-cloud-renderer
+m.youtube.com##.fullscreen-watch-next-entrypoint-wrapper,.fullscreen-recommendations-wrapper
+m.youtube.com##.ytm-player-endscreen
+
+! YouTube Top and Viral Lists
+www.youtube.com##ytd-shorts
+www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts],ytd-rich-shelf-renderer[is-shorts]:upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-rich-item-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-video-renderer:has(a[href^="/shorts/"])
+www.youtube.com##yt-chip-cloud-chip-renderer:has(.ytChipShapeInactive:has-text(/^Shorts$/i))
+www.youtube.com##ytd-guide-entry-renderer:has(a[href^="/shorts"]),ytd-mini-guide-entry-renderer:has(a[href^="/shorts"])
+www.youtube.com,m.youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2)
+m.youtube.com##body.page-shorts
+m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-reel-shelf-renderer
+m.youtube.com##ytm-rich-section-renderer:has(> ytm-reel-shelf-renderer)
+m.youtube.com##ytm-video-with-context-renderer:has(a[href^="/shorts/"])
+m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-shorts)
+
+! YouTube Comments
+www.youtube.com###comments
+www.youtube.com###comment-teaser
+www.youtube.com##ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-comments-section"]
+www.youtube.com##ytd-comment-thread-renderer,ytd-comments-header-renderer
+www.youtube.com,m.youtube.com##yt-video-metadata-carousel-view-model:has(yt-comment-teaser-carousel-item-view-model, yt-comment-input-box-carousel-item-view-model)
+www.youtube.com,m.youtube.com##[section-identifier="comment-item-section"]
+
+! Bilibili Recommendations
+www.bilibili.com##.recommended-container_floor-aside
+www.bilibili.com##.recommend-list-container
+www.bilibili.com##.right-container .rec-list,.right-container .rec-footer
+www.bilibili.com##.video-container-v1 .recommend-list-v1
+www.bilibili.com##.right-container .next-play > .video-page-card-small,.right-container .next-play > .split-line
+www.bilibili.com##.right-container .pop-live-small-mode
+www.bilibili.com##.bpx-player-ending-related
+www.bilibili.com##[class^="recommend_wrap__"]
+m.bilibili.com##.m-home .video-list
+m.bilibili.com##.m-video-related,.related-header
+
+! Bilibili Top and Viral Lists
+www.bilibili.com##.popular-container
+bilibili.com##.channel-icons__item[href*="/v/popular/"]
+bilibili.com##.header-channel-fixed-left a[href*="/v/popular/"]
+bilibili.com##.search-panel .trending
+bilibili.com###internationalHeader .nav-search-box .trending
+bilibili.com##.bili-dyn-topic-box
+bilibili.com##.bili-dyn-search-trendings
+t.bilibili.com##.topic-panel
+www.bilibili.com##:is(.video-info-detail, .video-info-meta) :is(.honor-rank, .honor-weekly, .honor-history)
+m.bilibili.com##.m-search-hot
+m.bilibili.com##.v-card-hot-search
+
+! Bilibili Comments
+bilibili.com###commentapp
+bilibili.com##bili-comments
+bilibili.com##.bili-comment-container
+bilibili.com##.bb-comment,.bili-comment
+t.bilibili.com##.bili-dyn-item__interaction
+m.bilibili.com##.m-video-comment
