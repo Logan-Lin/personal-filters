@@ -10,8 +10,9 @@ www.youtube.com##ytd-search #contents.ytd-item-section-renderer > ytd-horizontal
 
 ! YouTube Top and Viral Lists
 www.youtube.com##ytd-shorts
-www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer
-www.youtube.com##ytd-rich-shelf-renderer[is-shorts],ytd-rich-shelf-renderer[is-shorts]:upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
+www.youtube.com##ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts])
 www.youtube.com##ytd-rich-item-renderer:has(a[href^="/shorts/"])
 www.youtube.com##ytd-video-renderer:has(a[href^="/shorts/"])
 www.youtube.com##yt-chip-cloud-chip-renderer:has(.ytChipShapeInactive:has-text(/^Shorts$/i))
