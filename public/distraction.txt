@@ -54,3 +54,66 @@ bilibili.com##bili-comments
 bilibili.com##.bili-comment-container
 bilibili.com##.bb-comment,.bili-comment
 t.bilibili.com##.bili-dyn-item__interaction
+
+! Bangumi Timelines
+bangumi.tv,bgm.tv,chii.in###home_tml
+bangumi.tv,bgm.tv,chii.in###columnTimelineA
+bangumi.tv,bgm.tv,chii.in###header:has(+ div.columns #columnTimelineA)
+bangumi.tv,bgm.tv,chii.in##div.SidePanel:has(> ul.timeline.dots)
+bangumi.tv,bgm.tv,chii.in###columnB > h2.sideTitle:has(+ ul.timeline_img),#columnB > ul.timeline_img
+
+! Bangumi Comments
+bangumi.tv,bgm.tv,chii.in###comment_list
+bangumi.tv,bgm.tv,chii.in###sliderContainer
+bangumi.tv,bgm.tv,chii.in##div.subject_section:has(#comment_box)
+bangumi.tv,bgm.tv,chii.in##div.singleCommentList,div.crtCommentList
+
+! Bangumi Reactions
+bangumi.tv,bgm.tv,chii.in##.likes_grid
+bangumi.tv,bgm.tv,chii.in###columnA > .entry-actions
+
+! Bangumi Discussions
+bangumi.tv,bgm.tv,chii.in###container:has(> #listFrameWrapper)
+bangumi.tv,bgm.tv,chii.in###eden_tpc_list
+bangumi.tv,bgm.tv,chii.in###rakuenTab
+bangumi.tv,bgm.tv,chii.in###rakuen_infobox
+bangumi.tv,bgm.tv,chii.in##.eden_rec_box
+bangumi.tv,bgm.tv,chii.in###subject_info:has(#comment_list, .rakuenTopicList)
+bangumi.tv,bgm.tv,chii.in###columnInSubjectA:has(#comment_box, #entry_list, #memberUserList, table.topic_list, > #comment_list)
+bangumi.tv,bgm.tv,chii.in###columnA:has(> table.topic_list)
+bangumi.tv,bgm.tv,chii.in##div.section:has(> table.topic_list)
+bangumi.tv,bgm.tv,chii.in##div.subject_section:has(table.topic_list)
+bangumi.tv,bgm.tv,chii.in###home_grp_tpc,#home_subject_tpc
+
+! Bangumi Reviews and Blogs
+bangumi.tv,bgm.tv,chii.in###columnA:has(> div#entry_list)
+bangumi.tv,bgm.tv,chii.in##div.subject_section:has(div#entry_list)
+bangumi.tv,bgm.tv,chii.in##div.section:has(> a.rr[href^="/feed/blog/"])
+bangumi.tv,bgm.tv,chii.in###viewEntry
+bangumi.tv,bgm.tv,chii.in###headerSubject:has(h1.nameSingle a[href^="/feed/blog/"])
+
+! Bangumi User Lists
+bangumi.tv,bgm.tv,chii.in###subjectPanelCollect,#crtPanelCollect
+bangumi.tv,bgm.tv,chii.in###subjectPanelIndex
+bangumi.tv,bgm.tv,chii.in###columnA:has(ul#memberUserList)
+bangumi.tv,bgm.tv,chii.in###columnCrtB:has(> ul#memberUserList)
+bangumi.tv,bgm.tv,chii.in###columnUserSingle:has(:is(ul#memberUserList, ul#memberGroupList))
+bangumi.tv,bgm.tv,chii.in###sideLayout > div#friend
+bangumi.tv,bgm.tv,chii.in##div.SidePanel:has(:is(dl.side_port, dl.group_port))
+bangumi.tv,bgm.tv,chii.in###columnSubjectBrowserA div.section:has(ul.coversSmall)
+bangumi.tv,bgm.tv,chii.in###columnSubjectBrowserB div.SidePanel:has(> ul.timeline)
+
+! Bangumi Social Navigation
+bangumi.tv,bgm.tv,chii.in##ul#navMenuNeue > li:has(> a[href="/rakuen"]),ul#navMenuNeue > li:has(> a[href="/group"])
+bangumi.tv,bgm.tv,chii.in###navMenuNeue ul.explore li.single:has(> a[href$="/blog"], > a[href="/timeline"], > a[href*="doujin."])
+bangumi.tv,bgm.tv,chii.in###navMenuNeue ul.explore li.group span > a:is([href="/blog"], [href="/dollars"])
+bangumi.tv,bgm.tv,chii.in##ul.navTabs li:has(> a[href$="/comments"], > a[href$="/reviews"], > a[href$="/board"], > a[href$="/collections"], > a[href="/group/wiki"])
+bangumi.tv,bgm.tv,chii.in###headerProfile ul.navTabs > li:is(:has(> a[href*="/timeline"]), :has(> a[href*="/blog"]), :has(> a[href*="/groups"]), :has(> a[href*="/friends"]))
+bangumi.tv,bgm.tv,chii.in##div.menu_inner:has(ul.groupsLine)
+bangumi.tv,bgm.tv,chii.in##div.SidePanel:has(ul.groupsSmall),div.SidePanel:has(> ul.groupsLine)
+bangumi.tv,bgm.tv,chii.in###columnSubjectBrowserA:has(> ul#memberGroupList)
+bangumi.tv,bgm.tv,chii.in###header:has(a[href^="/group/category/"])
+bangumi.tv,bgm.tv,chii.in##div.sideInner:has(#grpCatList)
+bangumi.tv,bgm.tv,chii.in###sideLayout > div#group
+bangumi.tv,bgm.tv,chii.in###nav_menu > li:has(> a[href*="/rakuen"]),#nav_menu > li:has(> a[href*="/group"]),#nav_menu > li:has(> a[href*="/timeline"])
+bangumi.tv,bgm.tv,chii.in###header #nav a[href^="/group/"]
