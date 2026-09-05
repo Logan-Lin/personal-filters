@@ -117,3 +117,56 @@ bangumi.tv,bgm.tv,chii.in##div.sideInner:has(#grpCatList)
 bangumi.tv,bgm.tv,chii.in###sideLayout > div#group
 bangumi.tv,bgm.tv,chii.in###nav_menu > li:has(> a[href*="/rakuen"]),#nav_menu > li:has(> a[href*="/group"]),#nav_menu > li:has(> a[href*="/timeline"])
 bangumi.tv,bgm.tv,chii.in###header #nav a[href^="/group/"]
+
+! Toxic Social Networks
+||facebook.com^
+||messenger.com^
+||instagram.com^
+||xiaohongshu.com^
+||vk.com^
+||vk.ru^
+||vk.me^
+||ok.ru^
+||sharechat.com^
+||x.com^
+||threads.com^
+||bsky.app^
+||tumblr.com^
+||weibo.com^
+||weibo.cn^
+||mastodon.social^
+||misskey.io^
+||truthsocial.com^
+||gab.com^
+||tiktok.com^
+||rumble.com^
+||dailymotion.com^
+||nicovideo.jp^
+||twitcasting.tv^
+||sooplive.co.kr^
+||sooplive.com^
+||kuaishou.com^
+||kwai.com^
+||likee.video^
+||ixigua.com^
+||huya.com^
+||douyu.com^
+||bigo.tv^
+||rutube.ru^
+||reddit.com^
+||quora.com^
+||zhihu.com^
+||chii.in^
+||news.ycombinator.com^
+||lemmy.world^
+||4chan.org^
+||5ch.io^
+||dcinside.com^
+||dcard.tw^
+||v2ex.com^
+||nga.cn^
+||ngabbs.com^
+||tieba.baidu.com^
+||hupu.com^
+||pikabu.ru^
+||toutiao.com^
