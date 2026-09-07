@@ -118,6 +118,35 @@ bangumi.tv,bgm.tv,chii.in###sideLayout > div#group
 bangumi.tv,bgm.tv,chii.in###nav_menu > li:has(> a[href*="/rakuen"]),#nav_menu > li:has(> a[href*="/group"]),#nav_menu > li:has(> a[href*="/timeline"])
 bangumi.tv,bgm.tv,chii.in###header #nav a[href^="/group/"]
 
+! AniDB Recommendations and Reviews
+anidb.net###similaranime
+anidb.net##div.tabbed_pane:has(> div.body > div.pane:is(.recommendations, .reviews))
+anidb.net##div.g_section.animeatt_reviews
+anidb.net##div.g_section:is(.latest_recommendations, .latest_reviews, .latest_similaranime)
+
+! AniDB Top and Viral Lists
+anidb.net###hotanime
+anidb.net##div.g_section.latest_hotanime
+anidb.net##div.g_section.waifu
+anidb.net##div.g_section.datablocks:has(> div:is([id^="bestgirl"], [id^="bestguy"]))
+anidb.net##div.g_section.datablocks:has(> div[id^="bestof"])
+
+! AniDB Discussions and Clubs
+anidb.net##div.tabbed_pane:has(> div.body > div.pane:is(.latest_discussions, .clubs))
+anidb.net##div.g_content:is(.forum_all, .cmt_all)
+anidb.net##div.g_content:is(.club_all, .clublist_all)
+
+! AniDB Profiles and User Lists
+anidb.net##div.g_content:is(.buddylist_all, .reviewerlist_all, .timeline_all, .userlist_all)
+anidb.net##div.tabbed_pane:has(> div.body > div.pane:is(.guestbook, .discussions))
+anidb.net##div.userpage_all div.g_section.buddies
+anidb.net##div.userpage_all ul.general > li:has(> a[href$="/timeline"])
+
+! AniDB Social Navigation
+anidb.net##ul.main-tabs > li:is(.forum, .comment, .reviews, .recs, .hotanime, .similaranime)
+anidb.net###menu-lists > li:is(.club, .user)
+anidb.net###menu-support > li:is(.forum, .irc)
+
 ! Toxic Social Networks
 ||facebook.com^
 ||messenger.com^
