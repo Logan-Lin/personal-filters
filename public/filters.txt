@@ -147,7 +147,7 @@ anidb.net##ul.main-tabs > li:is(.forum, .comment, .reviews, .recs, .hotanime, .s
 anidb.net###menu-lists > li:is(.club, .user)
 anidb.net###menu-support > li:is(.forum, .irc)
 
-! Toxic Social Networks
+! Full Site
 ||facebook.com^
 ||messenger.com^
 ||instagram.com^
