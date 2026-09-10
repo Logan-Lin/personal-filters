@@ -161,6 +161,8 @@ anidb.net###menu-support > li:is(.forum, .irc)
 ||threads.com^
 ||bsky.app^
 ||tumblr.com^
+||pixiv.net^
+||pixiv.me^
 ||weibo.com^
 ||weibo.cn^
 ||mastodon.social^
