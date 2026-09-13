@@ -1,12 +1,18 @@
 ! YouTube Recommendations
 www.youtube.com##ytd-browse[page-subtype="home"]
 www.youtube.com###related
-www.youtube.com##.html5-endscreen
-www.youtube.com##.ytp-ce-element
-www.youtube.com##.ytp-pause-overlay
-www.youtube.com##.ytp-fullscreen-grid-stills-container
+www.youtube.com,m.youtube.com##.html5-endscreen
+www.youtube.com,m.youtube.com##.ytp-ce-element
+www.youtube.com,m.youtube.com##.ytp-pause-overlay
+www.youtube.com,m.youtube.com##.ytp-fullscreen-grid-stills-container
 www.youtube.com##ytd-search #contents.ytd-item-section-renderer > ytd-shelf-renderer
 www.youtube.com##ytd-search #contents.ytd-item-section-renderer > ytd-horizontal-card-list-renderer
+www.youtube.com,m.youtube.com##ytm-rich-grid-renderer:has(.rich-grid-renderer-header:not(.channel-page-grid-header) #filter-chip-bar)
+www.youtube.com,m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
+www.youtube.com,m.youtube.com##ytm-related-chip-cloud-renderer
+www.youtube.com,m.youtube.com##.ytm-player-endscreen
+www.youtube.com,m.youtube.com##.fullscreen-watch-next-entrypoint-wrapper,.fullscreen-recommendations-wrapper
+www.youtube.com,m.youtube.com##[data-target-id="search-feed"] ytm-shelf-renderer,[data-target-id="search-feed"] ytm-horizontal-card-list-renderer
 
 ! YouTube Top and Viral Lists
 www.youtube.com##ytd-shorts
@@ -17,15 +23,27 @@ www.youtube.com##ytd-rich-item-renderer:has(a[href^="/shorts/"])
 www.youtube.com##ytd-video-renderer:has(a[href^="/shorts/"])
 www.youtube.com##yt-chip-cloud-chip-renderer:has(.ytChipShapeInactive:has-text(/^Shorts$/i))
 www.youtube.com##ytd-guide-entry-renderer:has(a[href^="/shorts"]),ytd-mini-guide-entry-renderer:has(a[href^="/shorts"])
-www.youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2)
+www.youtube.com,m.youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2)
+www.youtube.com,m.youtube.com##ytm-reel-shelf-renderer
+www.youtube.com,m.youtube.com##ytm-rich-grid-renderer.is-shorts
+www.youtube.com,m.youtube.com##ytm-rich-section-renderer:has(ytm-reel-shelf-renderer, ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2)
+www.youtube.com,m.youtube.com##ytm-rich-shelf-renderer:has(ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2)
+www.youtube.com,m.youtube.com##ytm-rich-item-renderer:has(a[href^="/shorts/"]),ytm-video-with-context-renderer:has(a[href^="/shorts/"])
+www.youtube.com,m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
+www.youtube.com,m.youtube.com##ytm-chip-cloud-chip-renderer:has([aria-label="Shorts"])
+www.youtube.com,m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-shorts, .pivot-bar-item-tab.shorts)
+www.youtube.com,m.youtube.com##body.page-shorts
 
 ! YouTube Comments
 www.youtube.com###comments
 www.youtube.com###comment-teaser
 www.youtube.com##ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-comments-section"]
 www.youtube.com##ytd-comment-thread-renderer,ytd-comments-header-renderer
-www.youtube.com##yt-video-metadata-carousel-view-model:has(yt-comment-teaser-carousel-item-view-model, yt-comment-input-box-carousel-item-view-model)
-www.youtube.com##[section-identifier="comment-item-section"]
+www.youtube.com,m.youtube.com##yt-video-metadata-carousel-view-model:has(yt-comment-teaser-carousel-item-view-model, yt-comment-input-box-carousel-item-view-model)
+www.youtube.com,m.youtube.com##[section-identifier="comment-item-section"]
+www.youtube.com,m.youtube.com##ytm-engagement-panel-section-list-renderer.comment-item-section
+www.youtube.com,m.youtube.com##ytm-comments-entry-point-header-renderer,ytm-comments-entry-point-teaser-renderer
+www.youtube.com,m.youtube.com##ytm-comment-thread-renderer,ytm-comments-header-renderer
 
 ! Bilibili Recommendations
 www.bilibili.com##.recommended-container_floor-aside
