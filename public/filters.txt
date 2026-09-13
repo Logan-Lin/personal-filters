@@ -205,5 +205,3 @@ anidb.net###menu-support > li:is(.forum, .irc)
 ||hupu.com^
 ||pikabu.ru^
 ||toutiao.com^
-||youtube.com^
-||bilibili.com^
