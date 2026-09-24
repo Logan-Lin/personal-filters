@@ -166,7 +166,9 @@ anidb.net###menu-lists > li:is(.club, .user)
 anidb.net###menu-support > li:is(.forum, .irc)
 
 ! Reddit Recommendations
+www.reddit.com##shreddit-feed[reload-url^="/svc/shreddit/feeds/"]
 www.reddit.com##in-feed-community-recommendations
+www.reddit.com##recent-posts
 www.reddit.com##[slot="recommendation-overlay"]
 www.reddit.com###answers-suggested-queries-pdp,#answers-suggested-queries-mosaic
 www.reddit.com##aside[aria-label="Related Posts Section"]
@@ -176,7 +178,6 @@ www.reddit.com##search-telemetry-tracker[view-events="search/view/unit"][data-fa
 www.reddit.com##div:has(+ search-telemetry-tracker[view-events="search/view/unit"][data-faceplate-tracking-context*="query_suggestion_row"])
 
 ! Reddit Top and Viral Lists
-www.reddit.com##shreddit-feed[reload-url*="/feeds/popular-feed"],shreddit-feed[reload-url*="/feeds/all-feed"]
 www.reddit.com##aside[aria-label="Popular Communities"]
 
 ! Reddit Comment Feeds and Summaries
