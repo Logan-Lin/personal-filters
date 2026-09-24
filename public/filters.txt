@@ -165,6 +165,32 @@ anidb.net##ul.main-tabs > li:is(.forum, .comment, .reviews, .recs, .hotanime, .s
 anidb.net###menu-lists > li:is(.club, .user)
 anidb.net###menu-support > li:is(.forum, .irc)
 
+! Reddit Recommendations
+www.reddit.com##in-feed-community-recommendations
+www.reddit.com##[slot="recommendation-overlay"]
+www.reddit.com###answers-suggested-queries-pdp,#answers-suggested-queries-mosaic
+www.reddit.com##aside[aria-label="Related Posts Section"]
+www.reddit.com##div:has(> div > div > div > ul > li > reddit-pdp-right-rail-post)
+www.reddit.com##shreddit-app[routename="explore-page"] #main-content
+www.reddit.com##search-telemetry-tracker[view-events="search/view/unit"][data-faceplate-tracking-context*="query_suggestion_row"]
+www.reddit.com##div:has(+ search-telemetry-tracker[view-events="search/view/unit"][data-faceplate-tracking-context*="query_suggestion_row"])
+
+! Reddit Top and Viral Lists
+www.reddit.com##shreddit-feed[reload-url*="/feeds/popular-feed"],shreddit-feed[reload-url*="/feeds/all-feed"]
+www.reddit.com##aside[aria-label="Popular Communities"]
+
+! Reddit Comment Feeds and Summaries
+www.reddit.com##shreddit-profile-comment
+www.reddit.com##.search-answers-preview-section
+
+! Reddit User Lists
+www.reddit.com##section:has(> search-telemetry-tracker[data-faceplate-tracking-context*='"id":"search_authors"'])
+
+! Reddit Social Navigation
+www.reddit.com##li:has(a[href$="/r/popular/"]),li:has(a[href$="/r/all/"]),li:has(a[href$="/explore/"]),li:has(a[href*="/posts/20"])
+www.reddit.com###search-results-page-tab-comments,#search-results-page-tab-people
+www.reddit.com###profile-tab-comments_tab
+
 ! Full Site
 ||instagram.com^
 ||weibo.com^
