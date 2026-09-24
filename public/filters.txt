@@ -206,7 +206,6 @@ anidb.net###menu-support > li:is(.forum, .irc)
 ||kick.com^
 ||kickcommunity.com^
 ||rutube.ru^
-||reddit.com^
 ||quora.com^
 ||zhihu.com^
 ||chii.in^
